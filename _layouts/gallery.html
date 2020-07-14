@@ -1,0 +1,15 @@
+---
+layout: default
+---
+{%- assign _gallery = site.gallery | sort: 'order' -%}
+{%- include header.html scrolly_nav=_gallery -%}
+<!-- Main -->
+<div id="main">
+	{%- if page.content != "" -%}
+		{%- include image-album.html title=page.title photo=page.cover-photo photo-alt=page.cover-photo-alt auto-header=page.auto-header content=page.content folder=page.folder -%}
+	{%- endif -%}
+	<!-- Sections -->
+	{%- for _section in _gallery -%}
+		{%- include image-album.html title=_section.title photo=_section.cover-photo photo-alt=_section.cover-photo-alt auto-header=_section.auto-header content=_section.content folder=_section.folder -%}
+	{%- endfor -%}
+</div>

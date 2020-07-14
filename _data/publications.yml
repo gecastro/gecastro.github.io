@@ -1,0 +1,18 @@
+# Publication template
+- layout: publication
+  title: Learning footstep planning on irregular surfaces with partial placements.
+  authors: Germán Castro, Claude Sammut
+  year: 2019
+  published-in: 2019 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+  doi: 10.1109/IROS40897.2019.8967606
+  link: https://ieeexplore.ieee.org/abstract/document/8967606
+  abstract: |
+   We present two contributions built upon on a previous footstep planner based on the ARA* search. Firstly, we have developed an improved foothold selection method using support polygons, to increase foothold availability in rough terrain. Secondly, we present a footstep classification method using the C5.0 algorithm, that takes advantage of cost similarity between adjacent steps. This is intended to learn feasibility and approximate transition costs for the ARA * planner.These contributions extend capabilities of the planner by increasing footstep availability and allowing to generate more complex plans, without compromising safety.
+- layout: publication
+  title: UChile1 2004 Team Description Paper.
+  authors: Javier Ruiz-del-Solar, Paul Vallejos, J Zagal, Raúl Lastra, Germán Castro, Carlos Gortaris, Iván Sarmiento, Pablo Montero
+  year: 2004
+  published-in: Proceedings of the RoboCup 2004 Symposium, July
+  doi: 
+  link: https://d1wqtxts1xzle7.cloudfront.net/52483004/UChile1tdp2004.pdf?1491371942=&response-content-disposition=inline%3B+filename%3DUChile1_2004_Team_Description_Paper.pdf&Expires=1594553974&Signature=PVHn9ced37oTgfyAO9jN9OQwbJPlp7b-alfAR5MV0NCESCy60KVrk3taa2V~Q9VvKnNRSbqXKyN4pFTC8JukncofIA5tv~w4ryJ1ne8~u6vF6OYL1eYsW1HJDSc2aKbVB0XlFDtguVRKa14s3cJ5HOXylmJw8r~40LfXAWAGonYUmZaqoCVDC2wKlZpQXtC5mEuCYLKOjGjrIaP~u0qSjVj1oYP0K-M2HEnBHfORKTWBNQ2YrtZMNvw1ajIAKc92vJ~u5qQFr7AzfM3dkHHSL6EbZf2uA0CtRlzy5s~pxWHl2bfkXQHF6u9y2-Zz03BScFIL~hXsBOup5W~PrB3F7g__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA
+

@@ -1,0 +1,30 @@
+# Project template
+- layout: top-middle
+  name: Goal explanation in a multi-agent environment.
+  link:
+  github: 
+  quote: >
+    Short overview of the project (optional)
+  description: | # this will include new lines to allow paragraphs
+    Description about the work on/with the project
+- layout: top-middle
+  name: Improving footstep planning to increase stepping range and safety of bipedal robots over irregular terrain
+  link:
+  github: 
+  quote: >
+    PhD Disertation Thesis
+  description: | # this will include new lines to allow paragraphs
+   The aim of this work to increase the mobility of a bipedal robot walking over uneven terrain, while also minimising the risk of falling. To do this, we make significant improvements to existing footstep planners based on the ARA* search. We also introduce monitoring of plan execution to decide if re-planning is required when the state of the robot diverges from the state predicted by the plan.
+   A footstep planner must be able to predict possible foot placements; otherwise, it may not find a solution or it may create a plan that is to difficult to execute without a high risk of falling. Therefore, we have created an improved foothold selection method that simulates the contact points of the terrain with the feet. It finds the support polygon under the foot, and evaluates the support and risk of the placement.
+
+   We then explore the feasibility of step transitions and their cost. For this, we present a new footstep difficulty classification method using the C5.0 learning algorithm. Discrete levels of difficulty easy, medium, hard, and impossible, allow us to take advantage of cost similarity between adjacent steps. Using this classification, we learn feasibility and approximate transition costs for an ARA* planner.
+
+   Lastly, we apply the above methods to perform dynamic changes in the footstep plan, without the necessity of invoking the planner every time. We consider two different scenarios. In the first, the robot decides when to cancel the plan due to disturbances in its balance. The system uses terrain information to select a step that will allow the robot to come to a safe stop. In the second scenario, the robot changes its stride length to avoid drifting away from the footstep plan due to foot slip or other reasons. Using our difficulty classification, we validate that the changes made to the plan are possible or that they do not increase the difficulty of the steps. If not, it becomes necessary to re-plan, so we interrupt the execution of the current plan. The aim is to develop a method that autonomous performs a ‘stop and re-plan’ behaviour without the intervention of a human controller.
+- layout: top-middle
+  name: RoboCup @Home
+  link: 
+  github: 
+  quote: >
+    Short overview of the project (optional)
+  description: | # this will include new lines to allow paragraphs
+    Description about the work on/with the project

@@ -30,14 +30,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-subtitle: Your awesome subtitle
+title: Germán Castro
+subtitle: Personal Website
 description: >- # this means to ignore newlines until "baseurl:"
   This is the demo site for a Jekyll theme version of
   HTML5 UP's sleek, responsive site template Prologue.
-author: Your Incredible Name
-email: your-email@example.com
-avatar: assets/images/avatar.jpg
+author: Germán Castro
+email:
+avatar: assets/images/avatar.png
 
 # You'll want to customize url and baseurl for your own site:
 baseurl: "/" # the subpath of your site, e.g. /blog
@@ -49,17 +49,46 @@ twitter_url:
 facebook_url:
 googleplus_url:
 instagram_url:
-linkedin_url:
+linkedin_url: https://www.linkedin.com/in/germán-castro-6680145
 github_url:
 stackoverflow_url:
 pinterest_url:
 slack_url:
 dribbble_url:
+googlescholar_url: https://scholar.google.com/citations?user=czk4LU4AAAAJ
 
 # Google Analytics Tracking ID goes here:
 google_analytics:
 
+
+# resume page
+# About Section
+about_title: #Alternative title
+about_profile_image: assets/images/avatar.png
+about_content: | # this will include new lines to allow paragraphs
+  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  You can even add paragraphs by using empty lines like this and add anything else markdown supports such as
+    - Lists
+    - Tables
+    - <a href="google.com">Links</a>
+    - Images
+# Projects Section
+projects_title: Research Projects
+
+# Experience Section
+# experience_title: Experience #(Use this to override about experience section title)
+
+# Education Section
+# education_title: Education #(Use this to override about education section title)
+
+# More Section
+# more_title: A Little More About Me #(Use this to override about more section title)
+more_content: | # this will include new lines to allow paragraphs
+  This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+  Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+
+
 # The following settings are NECESSARY for the Prologue theme to run:
 remote_theme: gecastro/jekyll-theme-prologue
-collections: [sections]
+collections: [sections, resume, gallery]
 

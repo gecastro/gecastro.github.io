@@ -1,0 +1,65 @@
+# Experience template
+- layout: job-left
+  company: UNSW Australia
+  link: https://www.unsw.edu.au/
+  location: Sydney, Australia
+  job_title: Research Assistant
+  dates: Mar 2017 - present
+  location: Sydney, Australia
+  description: | # this will include new lines to allow paragraphs
+   Software developer for robotics research project in the School of Computer Sciences and Engineering. The problems approached in the projects include
+   Object detection, SLAM and navigation, grasping, and motion planning for a home support robot.
+   Multi-agent planning and machine learning.
+- layout: job-left
+  company: Accenture
+  link: https://www.accenture.com/
+  job_title: Senior Software Engineer
+  dates: Jun 2011 - Dec 2013
+  location: Sydney, Australia
+  description: | # this will include new lines to allow paragraphs
+    Description of role
+- layout: job-left
+  company: FishVision
+  link: https://www.fishvision.com/
+  job_title: Developer
+  dates: Feb 2010 - Jul 2011
+  location: Sydney, Australia
+  description: | # this will include new lines to allow paragraphs
+   Some of the performed activities included
+   Design and programming of Blackberry software.
+   Design and programming of reusable libraries and user interface components for Blackberry.
+   Time estimation for Blackberry projects.
+   Project management, coordinating requirements with the client and assignation of tasks for developers and graphics designers.
+- layout: job-left
+  company: Nuwit S.A.
+  link: https://www.nuwit.com/
+  job_title: Project Engineer
+  dates: Mar 2006 - Sep 2009
+  location: Santiago, Chile
+  description: | # this will include new lines to allow paragraphs
+   Project solutions architecture
+   Requirements analysis and support project resource estimation.
+   Development with JEE, Blackberry, C#, PHP, Databases.
+   Systems administration of development and production servers.
+
+   Participation in more than 10 projects as analyst or internal consultant.
+   Successful implementation of more than 20 integration and mobile projects.
+   Design and development of new graphics component library for Blackberry JDE.
+   Development of prototypes and proofs of technology such as new mobile devices.
+   Improvement of server infrastructure.
+- layout: job-left
+  company: Freelance
+  link: 
+  job_title: Freelance Developer
+  dates: Feb 2003 - Dec 2005
+  location: Santiago, Chile
+  description: | # this will include new lines to allow paragraphs
+    Worked as a developer for multiple projects, primarily web pages in PHP or Java.
+- layout: job-left
+  company: Arbol-Logika S.A.
+  link: https://www.web.arbol-logika.com/
+  job_title: Programmer
+  dates: Feb 2001 - Jan 2003
+  location: Santiago, Chile
+  description: | # this will include new lines to allow paragraphs
+    Development of software using PHP, Java servlets, Javascript, MySQL and desktop applications with Delphi.

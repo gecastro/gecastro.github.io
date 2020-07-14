@@ -1,0 +1,25 @@
+# Education Template
+- layout: left
+  name: The University of New South Wales
+  dates: 2013 - Present
+  qualification: PhD in Computer Sciences
+  quote: >
+    Short institution or course description (optional)
+  description: | # this will include new lines to allow paragraphs
+    Description of qualification
+- layout: left
+  name: University of Chile
+  dates: 1997 - 2005
+  qualification: Software Engineering
+  quote: >
+    Short institution or course description (optional)
+  description: | # this will include new lines to allow paragraphs
+    Description of qualification
+- layout: left
+  name: University of Chile
+  dates: 1997 - 2005
+  qualification: Bs. in Computer Sciences
+  quote: >
+    Short institution or course description (optional)
+  description: | # this will include new lines to allow paragraphs
+    Description of qualification

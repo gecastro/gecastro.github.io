@@ -1,0 +1,12 @@
+<div class="row clearfix layout left">
+  <div class="col-xs-12 col-print-12 details">
+    {%- if include.item.title -%}
+      <p><b>{{ include.item.title }}
+    {% if include.item.year %}({{ include.item.year }}){%- endif -%} 
+    {%- if include.item.link -%}{% include a.html href=include.item.link class="link" %}[link]</a>{%- endif -%}</p></b>
+    {%- endif -%}
+    {%- if include.item.published-in -%}<p><i>{{ include.item.published-in }}</i></p>{%- endif -%}
+    {%- if include.item.authors -%}<p>Authors: {{ include.item.authors }}</p>{%- endif -%}
+    {%- if include.item.abstract -%}<p><b>Abstract:</b></p>{{ include.item.abstract | strip | markdownify }}{%- endif -%}
+  </div>
+</div>
